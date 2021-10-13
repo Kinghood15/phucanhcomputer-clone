@@ -1,0 +1,7 @@
+.carousel-indicators,.owl-nav,.owl-dots{
+    display: none;
+}
+.carousel-control-prev,.carousel-control-next{
+    width:5%;
+    opacity: 8;
+}

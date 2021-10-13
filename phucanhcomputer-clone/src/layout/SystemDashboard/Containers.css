@@ -1,0 +1,20 @@
+.row{
+    width: 100%;
+    height:100%;
+}
+.nav-item{
+   margin-bottom: 0;
+}
+.nav-item>a{
+    height:100%;
+    width:100%;
+    border-radius:10px;
+}
+.nav-link:hover .sub-menu{
+    display: block;
+}
+.flex-column{
+    padding:6px;
+    padding-left:0px;
+    
+}

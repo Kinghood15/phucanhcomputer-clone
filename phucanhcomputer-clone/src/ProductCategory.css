@@ -1,0 +1,15 @@
+
+#list-down{
+    display:none;
+}
+.navbar-menu>.menu:hover #list-down{
+    display:block;
+    margin-top:1px;
+    transition-delay: 1s;
+}
+
+.Container {
+    width:90vw;
+    max-width:90vw;
+    margin:auto;
+}

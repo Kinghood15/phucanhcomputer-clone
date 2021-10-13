@@ -1,0 +1,24 @@
+#TitleItem>a {
+  color: red;
+}
+
+#ItemSubNewProduct:hover #ListSubItemNewProduct {
+  visibility: visible;
+  display: block;
+}
+
+.ItemProduct:hover .SubItemProduct {
+  visibility: visible;
+  display: block;
+}
+
+.slide {
+  width: 850px;
+  max-height: 630px;
+  z-index: 1;
+}
+
+.active-title-tap {
+  color: white;
+  background-color: red;
+}

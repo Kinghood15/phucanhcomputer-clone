@@ -1,0 +1,105 @@
+
+.App {
+  text-align: center;
+  position: relative;
+  background-color:white;
+}
+.carousel-indicators{
+  display: none;
+}
+/* @media (prefers-reduced-motion: no-preference) {
+
+}
+@media (max-width:1920px){
+  .Top{
+    font-size:13px;
+    
+  }
+  .header-logo> img{
+    width:250px;
+    height:90px;
+  }
+  #header-hotline{
+    font-size: 16px;
+  }
+  #TopSaleOff{
+    width: 80%;
+  }
+  #adv-banner{
+    width: 25vw;
+  }
+  #slide{
+    margin-left: cacl(max-width-300px);
+  }
+  #SubItemProduct{
+    left: cacl(max-width-300px);
+  }
+}
+@media (max-width:1815px){
+  #adv-banner{
+    
+  }
+}
+@media (max-width:1735px){
+  .Top{
+    height: 45px;
+  }
+  #adv-banner{
+    width: 23vw;
+  }
+}
+@media (max-width:1624px){
+  .navbar-menu >.box-deal> a{
+    font-size:12px;
+  }
+  .list-nav-right{
+    font-size:12px;
+  }
+  #menu-title{
+    font-size: 14px;
+  }
+  #list-down {
+    width:15vw;
+  }
+  #list-down > span{
+    font-size: 18px;
+  }
+  .list-down > .ItemProduct{
+    font-size: 12px;
+  }
+  #SubItemProduct{
+    left:250px;
+  }
+  #slide{
+    margin-left: 255px;
+    width:auto;
+  }
+  #adv-banner{
+    
+  }
+}
+@media(max-width:1400px){
+  .list-down > .ItemProduct{
+    font-size: 10px;
+  }
+}
+@media (max-width:930px){
+  .Top{
+    font-size:10px;
+    height: 30px;
+  }
+  .list-down > .ItemProduct{
+    font-size: 10px;
+  }
+  
+}
+@media (max-width:858px){
+  .Top{
+    height: 45px;
+  }
+}
+@media (max-width:400px){
+  .Top{
+    height: 50px;
+  }
+} */
