@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "615abdb6f5a7feaeda3681cf"
+  },
+  "username": "an",
+  "password": "$argon2i$v=19$m=4096,t=3,p=1$sqtdbuJYHQd9Jih3cEYOng$UMnVpAqeIhRf+3nRSgB4hilU9+jbLLfC54GutGbJd20",
+  "cart": [],
+  "client": {
+    "$oid": "615abdb6f5a7feaeda3681cc"
+  },
+  "__v": 0
+}]

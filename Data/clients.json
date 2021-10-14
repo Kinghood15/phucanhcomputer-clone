@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "615abdb6f5a7feaeda3681cc"
+  },
+  "nameClient": "Nguyen Duc Thanh An",
+  "addressClient": "Ha Noi - Viet Nam",
+  "phonenumberClient": "0338278163",
+  "createdAtClient": {
+    "$date": "2021-10-04T08:05:31.099Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61668a195d861b4c62483f71"
+  },
+  "nameClient": "test",
+  "addressClient": "test",
+  "phonenumberClient": "0123456789",
+  "createdAtClient": {
+    "$date": "2021-10-13T07:26:12.230Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "616693ccc32aefa165aa19c8"
+  },
+  "nameClient": "test",
+  "addressClient": "test",
+  "phonenumberClient": "789456123",
+  "createdAtClient": {
+    "$date": "2021-10-13T08:06:21.416Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6166faf7e68c8fabaa3cadd2"
+  },
+  "nameClient": "sdfasdfasdf",
+  "addressClient": "asdfasdfasdf",
+  "phonenumberClient": "asdfasdfasdf",
+  "createdAtClient": {
+    "$date": "2021-10-13T08:13:08.919Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61670316e68c8fabaa3cadf4"
+  },
+  "nameClient": "asdfasdfasdsdfa",
+  "addressClient": "asdfasdfasdfasdf",
+  "phonenumberClient": "fasdf7a89s7df89a7sdf897",
+  "createdAtClient": {
+    "$date": "2021-10-13T08:13:08.919Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "616703b9e68c8fabaa3cadf8"
+  },
+  "nameClient": "asdfsdfasdf",
+  "addressClient": "fasdfasdfasdfwef",
+  "phonenumberClient": "asdfasdfasdfasdfasf",
+  "createdAtClient": {
+    "$date": "2021-10-13T08:13:08.919Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6167065fe68c8fabaa3cae06"
+  },
+  "nameClient": "asdfasdfsf",
+  "addressClient": "afdasdfasdfasdf",
+  "phonenumberClient": "asdfasdfasdfasdfasdfasdfasdf",
+  "createdAtClient": {
+    "$date": "2021-10-13T08:13:08.919Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "616708c1e68c8fabaa3cae0e"
+  },
+  "nameClient": "qerwqwerqwerqwerq",
+  "addressClient": "qwerqwerqwerqwerqwer",
+  "phonenumberClient": "qwerqwerqwerqwerqwer",
+  "createdAtClient": {
+    "$date": "2021-10-13T08:13:08.919Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61670a9fe68c8fabaa3cae1b"
+  },
+  "nameClient": "qwerqwerqwerqwerqwer",
+  "addressClient": "qwerqwerqwerqwerqwerqwerqwe",
+  "phonenumberClient": "qwerqwerqwerq",
+  "createdAtClient": {
+    "$date": "2021-10-13T08:13:08.919Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6167d7d05c6e70af6366ac1e"
+  },
+  "nameClient": "Thanh An",
+  "addressClient": "Ha Noi",
+  "phonenumberClient": "0946770209",
+  "createdAtClient": {
+    "$date": "2021-10-14T06:07:44.010Z"
+  },
+  "__v": 0
+}]

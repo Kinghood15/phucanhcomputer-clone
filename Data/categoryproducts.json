@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6159fa47267b752d7ee4cb33"
+  },
+  "nameCategoryProduct": "Laptop",
+  "userAdmin": {
+    "$oid": "615411ac63ec98b30f00c21c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "615b6dcdb2ee834c5cbb5ba3"
+  },
+  "nameCategoryProduct": "Điện thoại",
+  "userAdmin": {
+    "$oid": "615411ac63ec98b30f00c21c"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "6167d7d05c6e70af6366ac20"
+  },
+  "ImageurlProductInvoice": "",
+  "createAtProductInvoice": {
+    "$date": "2021-10-14T06:07:44.074Z"
+  },
+  "quanlityProductInvoice": 1,
+  "totalpriceProductInvoice": 11190000,
+  "remarkProductInvoice": "",
+  "product": [
+    null,
+    {
+      "$oid": "615c94c74ba7225689f562e4"
+    }
+  ],
+  "client": {
+    "$oid": "6167d7d05c6e70af6366ac1e"
+  },
+  "__v": 0
+}]

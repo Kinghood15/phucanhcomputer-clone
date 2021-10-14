@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "61540f5d63ec98b30f00c214"
+  },
+  "usernameAdmin": "test",
+  "passwordAdmin": "$argon2i$v=19$m=4096,t=3,p=1$JM7Y3/+YvmIaynCN7nBG2w$PP3CyUNJ9HcI2rBT8qr9R3J0dM6dxyc7/uq++LpKIYE",
+  "urlImageAdmin": "../account.png",
+  "createdAtUserAdmin": {
+    "$date": "2021-09-29T07:00:29.613Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "615411ac63ec98b30f00c21c"
+  },
+  "usernameAdmin": "kinghood",
+  "passwordAdmin": "$argon2i$v=19$m=4096,t=3,p=1$Sq2ZTF1V2RxGfPynMIP9nw$H4ydFsQ/fiW10x8i9iQr4PcltyYEb7IrIDDc2aD3OdY",
+  "urlImageAdmin": "../../image/account.png",
+  "createdAtUserAdmin": {
+    "$date": "2021-09-29T07:00:29.613Z"
+  },
+  "__v": 0
+}]
