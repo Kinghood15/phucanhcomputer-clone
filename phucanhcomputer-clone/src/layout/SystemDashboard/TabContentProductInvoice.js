@@ -52,8 +52,7 @@ const TabContent = () => {
                 <thead>
                     <tr>
                         <th>STT</th>
-                        <th>Tên hoá đơn nhập</th>
-                        <th>Hình ảnh nhập</th>
+                        {/* <th>Hình ảnh nhập</th> */}
                         <th>Tên khách hàng</th>
                         <th>Địa chỉ thông tin khách hàng</th>
                         <th>Số điện thoại khách hàng</th>
@@ -69,8 +68,7 @@ const TabContent = () => {
                     {productInvoices.map(productInvoice => (
                         <tr key={productInvoice._id}>
                             <td>{i++}</td>
-                            <td>{productInvoice.product.nameProduct}</td>
-                            <td><img src={productInvoice.ImageUrlProductInvoice} alt="Image" /></td>
+                            {/* <td><img src={productInvoice.ImageUrlProductInvoice} alt="Image" /></td> */}
                             <td>{productInvoice.client.nameClient}</td>
                             <td>{productInvoice.client.addressClient}</td>
                             <td>{productInvoice.client.phonenumberClient}</td>

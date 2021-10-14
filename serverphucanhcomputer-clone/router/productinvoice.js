@@ -145,7 +145,7 @@ router.put('/:id',verifyToken, async (req, res) => {
 // @access private
 router.delete('/:id',verifyToken, async (req, res) => {
     try {
-        const ProductInvoiceUpdateCondition = { _id:req.params.id, userAdmin:req.userAdminId }
+        const ProductInvoiceUpdateCondition = { _id:req.params.id }
         deleteProductInvoice = await ProductInvoice.findOneAndDelete(ProductInvoiceUpdateCondition, {new:true});
         //User not authorised to delete productinvoice
         if(!deleteProductInvoice) return res.status(401).json({success:false,message:'Product Invoice deleted false'});
