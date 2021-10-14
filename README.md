@@ -1,6 +1,6 @@
 # phucanhcomputer-clone
 
-# Chay code frontend 
+## Chay code frontend 
 # cd phucanhcomputer-clone
 # npm start
 
