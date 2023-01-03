@@ -60,13 +60,13 @@ const TabContent = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {categoryProducts.map(categoryProduct => (
+                    {categoryProducts && categoryProducts !== undefined && categoryProducts.map((categoryProduct,index) => (
                         <tr key={categoryProduct._id}>
-                            <td>{i++}</td>
+                            <td>{index++}</td>
                             <td>{categoryProduct.nameCategoryProduct}</td>
-                            <td>{categoryProduct.userAdmin.usernameAdmin}</td>
+                            {/* <td>{categoryProduct.userAdmin.usernameAdmin}</td> */}
                             <td><button alt="edit" onClick={chooseCategoryProduct.bind(this,categoryProduct._id)}><i className="fas fa-edit"></i></button></td>
-                            <td><button alt="edit" onClick={DeleteCategoryProduct.bind(this,categoryProduct._id)}><i className="fas fa-trash"></i></button></td>
+                            <td><button alt="delete" onClick={DeleteCategoryProduct.bind(this,categoryProduct._id)}><i className="fas fa-trash"></i></button></td>
                         </tr>
                     ))}
                 </tbody>

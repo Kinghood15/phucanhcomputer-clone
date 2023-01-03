@@ -44,7 +44,7 @@ function App() {
             </AuthClientContextProvider>
           </SupplierInvoiceContextProvider>
         </SupplierContextProvider>
-       </AuthContextProvider>    
+       </AuthContextProvider>
     </div>
   );
 }
