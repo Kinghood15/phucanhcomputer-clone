@@ -23,7 +23,11 @@ const BoxProductCart = ({cartItems,AddProductItem,RemoveProductItem}) => {
         totalpriceProductInvoice:totalPriceProduct,
         quanlityProductInvoice:totalQuantityProduct,
         remarkProductInvoice:'' , 
-        productId:cartItems.map(item =>  item._id )
+        productId: cartItems.map(item => {
+            if(item._id !== undefined){
+                return item._id;
+            }
+        })
     })
     const {nameClient,addressClient,phonenumberClient,ImageurlProductInvoice,totalpriceProductInvoice, quanlityProductInvoice, remarkProductInvoice , productId} = addProcductInvoiceForm;
     const onChangeAddProductInvoiceForm = event => {
@@ -37,7 +41,6 @@ const BoxProductCart = ({cartItems,AddProductItem,RemoveProductItem}) => {
             addProcductInvoiceForm, productId:[]
             
         })
-        console.log(cartItems);
         event.preventDefault();
         try{
             const addProductInvoiceData = await AddProductInvoiceClient(addProcductInvoiceForm);
@@ -52,6 +55,7 @@ const BoxProductCart = ({cartItems,AddProductItem,RemoveProductItem}) => {
                 remarkProductInvoice:'' , 
                 productId:[]
             });
+            alert("Đặt hàng thành công !")
             }
         }catch(error) {
             console.log(error);

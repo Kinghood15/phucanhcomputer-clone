@@ -28,7 +28,10 @@ const LoginAdmin = () => {
             if (!loginAdminData.success) {
 				setAlert({ type: 'danger', message: loginAdminData.message })
 				setTimeout(() => setAlert(null), 5000)
-			}
+			}else if(loginAdminData.success){
+                setAlert({ type: 'success', message: loginAdminData.message })
+				setTimeout(() => setAlert(null), 5000)
+            }
 
         }catch(e){
             console.log(e);
