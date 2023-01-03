@@ -45,7 +45,7 @@ const RegisterAdmin = (props) => {
         <Register>
             <AlertMessage info={alert} />
             <BoxRegister>
-                <h3>Đăng ký vào Acodern</h3>
+                <h3>Đăng ký vào thành viên của công ty Acodern</h3>
                 <TitleRegister>
                     Bạn có tài khoản tại đây ?
                     <Link to="/login"> Đăng nhập </Link>

@@ -41,7 +41,7 @@ const LoginAdmin = () => {
                 <h3>Đăng nhập vào Acodern</h3>
                 <TitleRegister>
                     Tạo mới tài khoản tại đây ?
-                    <Link to="/register"> Tạo tài khoản mới </Link>
+                    <Link to="/admin-acodern/register"> Tạo tài khoản mới </Link>
                 </TitleRegister>
                 <form onSubmit={login}>
                     <fieldset>
